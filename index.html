@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Flip Game</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h5 class= "animate__animated animate__slideInRight"><q>Card Flip Game</q></h5>
+    <div class="card-container">
+        <!-- Card 1: King -->
+        <div class="card" id="card1">
+            <div class="card-inner">
+                <!-- <div class="card-front"animate__animated animate__flipInY>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9aX59FzrEg-E9iWOdu7YjmJpV_uQA1zcL2w&s" alt="King" />
+                </div> -->
+                <div class="card-back">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvf7f2fLe4YjFau1PBOtDaZ3TFtsp0ZWEe-w&s" alt="Card Back" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2: Joker -->
+        <div class="card" id="card2">
+            <div class="card-inner">
+                <!-- <div class="card-front" animate__animated animate__flipInY>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe2Z1Ds5wmRPCDZZh21NKrzyUiDdhwkW0PGQ&s" alt="Joker" />
+                </div> -->
+                <div class="card-back">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvf7f2fLe4YjFau1PBOtDaZ3TFtsp0ZWEe-w&s" alt="Card Back" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3: Ekky -->
+        <div class="card" id="card3">
+            <div class="card-inner">
+                <!-- <div class="card-front" animate__animated animate__flipInY>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCNDTwQtn_FTfjNN_66AFVRzXPpuKbzYih0Q&s" alt="Ekky" />
+                </div> -->
+                <div class="card-back">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvf7f2fLe4YjFau1PBOtDaZ3TFtsp0ZWEe-w&s" alt="Card Back" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="msg" style="display: none; color: green; font-size: 18px; margin-top: 20px;"></div>
+    <div class="abc"> <div ><button class="button-42" role="button" onclick="flipCards()">Play!</button></div>
+    <div ><button class="button-42" role="button" onclick="resetCards()">Reset</button></div></div>
+    <script src="script.js"></script>
+</body>
+</html>
